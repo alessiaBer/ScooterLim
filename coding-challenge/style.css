@@ -1,0 +1,126 @@
+:root {
+    --green: #00dd00;
+    --orange: #f5b453;
+    --red: #be4141;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./MaterialeEsercizioLim/background.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 20px 0;
+    width: 63%;
+    align-items: center;
+    background-color: #0007;
+    border-radius: 15px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+header > img {
+    width: 185px;
+    padding-bottom: 3px;
+}
+
+header > h2 {
+    margin: 0;
+    font-weight: 500;
+    color: var(--green);
+}
+
+nav {
+    width: 82%;
+    height: 35px;
+    background-color: var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 60%;
+}
+
+button {
+    font-size: 11px;
+}
+
+main {
+    color: #fff;
+    padding: 15px 81px 65px 85px;
+}
+
+
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    height: 22px;
+}
+
+
+.fa-sharp {
+    font-size: 10px;
+    margin: 0 5px 10px 0;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.arrow {
+    font-size: 15px;
+}
+
+
+
+.charge-level {
+    height: 22px;
+    border-radius: 4px;
+}
+
+.gino .charge-level  {
+    background-color: var(--orange);
+    width: 35%;
+    margin-bottom: 20px;
+}
+
+.mike .charge-level {
+    background-color: var(--green);
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.fede .charge-level {
+    background-color: var(--red);
+    width: 17%;
+}
